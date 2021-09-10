@@ -1,4 +1,5 @@
 import { makeStyles } from "@material-ui/core";
+import { NoEncryption } from "@material-ui/icons";
 
 const headerStyles = makeStyles({
   header: {
@@ -29,12 +30,15 @@ const headerStyles = makeStyles({
       backgroundColor:"#FF385C"
   },
   rightHeader:{
-    paddingRight:'80px'
+    paddingRight:'70px'
   },
   menu:{
       padding:"10px",
       borderRadius:"20px",
       border:"1px solid rgb(221, 221, 221) !important"
+  },
+  hostButton:{
+    textTransform:'none',
   }
 
 }); 

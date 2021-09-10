@@ -22,15 +22,17 @@ const Header = () => {
               <SearchIcon fontSize="small" htmlColor="white" />
             </div>
           }
-          variant="outlined"    
+          variant="outlined"
           className={classes.headerBtn}
         >
           Start your search
         </Button>
       </div>
       <div className={classes.rightHeader}>
-        <span>Become a host</span>
-        <LanguageIcon fontSize="small" />
+        <Button className={classes.hostButton}>Become a host</Button>
+        <Button>
+          <LanguageIcon fontSize="small" />
+        </Button>
         <span className={classes.menu}>
           <Button startIcon={<MenuIcon />} endIcon={<AccountCircleIcon />} />
         </span>
